@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "git rm -rf . && git checkout HEAD -- .nojekyll CNAME package.json && cd .. && cp -R liechtenstein/__sapper__/export liechtenstein.org"
+    "deploy": "git rm -rf . && git checkout HEAD -- .nojekyll CNAME package.json && cd .. && cp -R liechtenstein/__sapper__/export/* liechtenstein.org"
   },
   "repository": {
     "type": "git",
