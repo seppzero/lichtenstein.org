@@ -1,1 +1,0 @@
-import{N as t}from"./client.fc8cc936.js";function a(a,{delay:e=0,duration:o=400,easing:c=t}){const i=+getComputedStyle(a).opacity;return{delay:e,duration:o,easing:c,css:t=>`opacity: ${t*i}`}}export{a as f};
