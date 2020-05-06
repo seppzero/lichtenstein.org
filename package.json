@@ -1,0 +1,19 @@
+{
+  "name": "liechtenstein.org",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "git rm -rf . && git checkout HEAD -- .nojekyll CNAME package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seppzero/lichtenstein.org.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seppzero/lichtenstein.org/issues"
+  },
+  "homepage": "https://github.com/seppzero/lichtenstein.org#readme"
+}
