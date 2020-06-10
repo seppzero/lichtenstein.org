@@ -1,1 +1,0 @@
-import{K as t}from"./client.ea6809d1.js";function o(o,a){var i=a.delay,e=void 0===i?0:i,n=a.duration,r=void 0===n?400:n,d=a.easing,c=void 0===d?t:d,s=+getComputedStyle(o).opacity;return{delay:e,duration:r,easing:c,css:function(t){return"opacity: ".concat(t*s)}}}export{o as f};
